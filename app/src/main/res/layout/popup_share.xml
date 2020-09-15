@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorBlack"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:layout_weight=".1" >
+
+        <Button
+            android:id="@+id/BtnBluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Bluetooth"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_weight=".1" >
+
+        <Button
+            android:id="@+id/BtnWhatsApp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="WhatsApp"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_weight=".1" >
+
+        <Button
+            android:id="@+id/BtnClose"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Close"
+            android:textSize="25sp" />
+    </LinearLayout>
+</LinearLayout>

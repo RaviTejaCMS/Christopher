@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorBlack"
+    android:id="@+id/linearLayout"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/contactName"
+        android:textColor="@color/colorAccent"
+        android:textSize="36dp"
+        android:text="Contact Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/contactNumber"
+        android:textSize="41dp"
+        android:text="+91 12345 67890"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/ImgWhatsapp"
+        android:visibility="gone"
+        android:src="@drawable/nwhatsapp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

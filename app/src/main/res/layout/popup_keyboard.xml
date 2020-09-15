@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/PopupkeyLayout"
+    android:background="@drawable/bg11"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/BtnOne"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:onClick="buttonClicked"
+            android:src="@drawable/dot1"
+            android:background="@null"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/BtnCaps"
+            android:layout_width="0dip"
+            android:background="@null"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/BtnTwo"
+            android:layout_width="0dip"
+            android:onClick="buttonClicked"
+            android:src="@drawable/dot1"
+            android:background="@null"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:layout_width="0dip"
+            android:id="@+id/BtnThree"
+            android:onClick="buttonClicked"
+            android:layout_height="match_parent"
+            android:src="@drawable/dot1"
+            android:background="@null"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/BtnNumberOn"
+            android:layout_width="0dip"
+            android:src="@drawable/keyboardbg"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/BtnFour"
+            android:layout_width="0dip"
+            android:onClick="buttonClicked"
+            android:layout_height="match_parent"
+            android:src="@drawable/dot1"
+            android:background="@null"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/BtnFive"
+            android:layout_width="0dip"
+            android:text="Space"
+            android:onClick="buttonClicked"
+            android:layout_height="match_parent"
+            android:src="@drawable/dot1"
+            android:background="@null"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/BtnRemove"
+            android:layout_width="0dip"
+            android:text="DEL / Play"
+            android:background="@null"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/BtnSix"
+            android:layout_width="0dip"
+            android:onClick="buttonClicked"
+            android:layout_height="match_parent"
+            android:src="@drawable/dot1"
+            android:background="@null"
+            android:text="Done"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
